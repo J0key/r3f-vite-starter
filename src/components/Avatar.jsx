@@ -69,6 +69,7 @@ export function Avatar(props) {
 
     for (let i = 0; i < lipsync.mouthCues.length; i++) {
       const mouthCure = lipsync.mouthCues[i];
+      
       if (
         currentAudioTime >= mouthCure.start &&
         currentAudioTime <= mouthCure.end
